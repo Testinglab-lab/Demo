@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HSBC NEX Presenter Console</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body class="v2-presenter-page" data-page-id="v2-presenter-console">
+    <main class="v2-presenter-shell">
+      <aside class="v2-presenter-now">
+        <div class="v2-presenter-now-header">
+          <p class="v2-presenter-section-label">Presentation guide</p>
+          <div class="v2-presenter-status" id="presenterStatus">No display connected</div>
+        </div>
+        <div>
+          <strong id="nowShowing">Nothing selected</strong>
+          <p id="nowSummary">Open a display page to begin.</p>
+          <div class="v2-presenter-flow-guide" id="nowFlowGuide"></div>
+          <div class="v2-presenter-actions">
+            <button id="openDisplayButton" type="button">Open Start display</button>
+          </div>
+        </div>
+      </aside>
+    </main>
+    <script defer src="./assets/js/app-setup.js"></script>
+    <script defer src="./assets/js/v2-presenter-console.js"></script>
+  </body>
+</html>
